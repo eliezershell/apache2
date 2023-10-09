@@ -8,10 +8,10 @@ fi
 sudo apt install apache2 -y
 if [ $? -gt 0 ]; then
         echo "Erro ao instalar Apache2!"; exit 0
+fi
 
 echo "------------------------------Verificando Apache2------------------------------"
 sudo systemctl status apache2
-echo "-------------------------------------------------------------------------------"
 
 echo "------------------------------Instalação concluída com sucesso!------------------------------"
 echo "----------------------Script by: Eliezer Ribeiro | linkedin.com/in/elinux--------------------"
